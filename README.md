@@ -56,9 +56,75 @@ Uno de los conceptos que más promueve Sass es la reutilización de estilos para
 En este caso se está declarando un mixin que contiene propiedades que se repiten bastante durante todo el proyecto, ahora revisemos como se agregaría este mixin dentro de los estilos
 
 ``` scss
+
 .titulos {
   @include large-text;
   padding: 4px;
   margin-top: 10px;
 }
 
+```
+
+Al compilar el Sass anterior se producirá el siguiente estilo: 
+
+``` css
+
+.titulos {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: $color-ppal;
+  padding: 4px;
+  margin-top: 10px;
+}
+
+```
+
+#### Indentación que produce jerarquía
+
+Escribir estilos de con jerarquía puede llegar a ser una de las acciones que pueden llegar a tornarse en complejas e incluso difícil de visualizar, por lo cual Sass propone indentar las clases y componentes de CSS para generar las jerarquias deseadas.
+
+```scss
+
+.golden {
+    background-color: $fools-gold;
+
+    p{
+    	color: $pure-white;
+    }
+}
+
+```
+
+Este scss producirá el siguiente CSS
+
+``` css
+
+.golden {
+  background-color: #f2c74f;
+}
+
+.golden p {
+  color: #ffffff;
+}
+
+```
+
+Si analizamos el CSS producido podemos ver que al elemento p estar indentado dentro de .golden estamos diciendo que todos los p dentro de esta clase se comportan de cierta manera, entonces si identas elementos dentro de una clase funcionara en jerarquías, para  dejarlo aún más claro ahora declaramos una regla en Scss para los ```<a></a>```dentro de un ```<p></p>``` 
+
+``` scss
+
+.golden {
+    background-color: $fools-gold;
+
+    p{
+    	color: $pure-white;
+
+	a{
+	  font-family: Comic-sans;
+	}
+
+    }
+}
+
+```
