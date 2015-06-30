@@ -125,3 +125,5 @@ Si analizamos el CSS producido podemos ver que al elemento p estar indentado den
 }
 
 ```
+
+Una vez que entiendas estos conceptos puedes comenzar por la instalacion de todo lo necesario para trabajar con Sass, este archivo lo puedes encontrar aqui mismo como [install.md](https://github.com/PoloGarcia/Sass-101/blob/master/install.md)
