@@ -116,15 +116,12 @@ Si analizamos el CSS producido podemos ver que al elemento p estar indentado den
 
 .golden {
     background-color: $fools-gold;
-
     p{
     	color: $pure-white;
-
-	a{
-	  font-family: Comic-sans;
-	}
-
-    }
+    	a{
+    	  font-family: Comic-sans;
+    	  }
+   }
 }
 
 ```
