@@ -1,0 +1,54 @@
+// Este es el codigo de la landing
+
+#section-1{
+	@include bg-covertint($r_deep-blue,$g_deep-blue,$b_deep-blue,$r_light-blue,$g_light-blue,$b_light-blue,$alpha_cover,$cover_picture);
+	height: 100vh;
+	color: $grey;
+
+	h1{
+		font-weight: $light;
+		font-size: 70px;
+		text-align: center;
+		padding-top: 50px;
+		margin-bottom: 10px;
+		width:50%;
+		@include center-horizontal;
+	}
+
+	img{
+		height: 30vh;
+		@include center-horizontal;
+	}
+
+	.logo{
+		//@include center-horizontal;
+		font-size: 50px;
+		width: 100%;
+		text-align: center;
+		color: $pure-white;
+
+		.bold{
+			font-weight: $ultra-bold;
+		}
+
+		.thin{
+			font-weight: $light;
+		}
+	}
+
+	p{
+		font-weight: $regular;
+		width: 70%;
+		text-align: center;
+		@include center-horizontal;
+	}
+}
+
+#section-2{
+	height: 100vh;
+	background-color: $almost-white;
+}
+
+#section-3{
+
+}

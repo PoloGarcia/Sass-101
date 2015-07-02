@@ -1,0 +1,72 @@
+/* line 1, ../sass/_base.scss */
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  color: #333333;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+/* line 3, ../sass/_landing.scss */
+#section-1 {
+  background: -webkit-linear-gradient(rgba(0, 22, 86, 0.6), rgba(25, 117, 255, 0.6)), url("../assets/img/cover-picture.png") no-repeat center center fixed;
+  background: -moz-linear-gradient(rgba(0, 22, 86, 0.6), rgba(25, 117, 255, 0.6)), url("../assets/img/cover-picture.png") no-repeat center center fixed;
+  background: -o-linear-gradient(rgba(0, 22, 86, 0.6), rgba(25, 117, 255, 0.6)), url("../assets/img/cover-picture.png") no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 22, 86, 0.6), rgba(25, 117, 255, 0.6)), url("../assets/img/cover-picture.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  color: #EAEAEA;
+}
+/* line 8, ../sass/_landing.scss */
+#section-1 h1 {
+  font-weight: 100;
+  font-size: 70px;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 10px;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 18, ../sass/_landing.scss */
+#section-1 img {
+  height: 30vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 23, ../sass/_landing.scss */
+#section-1 .logo {
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  color: #FFF;
+}
+/* line 30, ../sass/_landing.scss */
+#section-1 .logo .bold {
+  font-weight: 900;
+}
+/* line 34, ../sass/_landing.scss */
+#section-1 .logo .thin {
+  font-weight: 100;
+}
+/* line 39, ../sass/_landing.scss */
+#section-1 p {
+  font-weight: 300;
+  width: 70%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 47, ../sass/_landing.scss */
+#section-2 {
+  height: 100vh;
+  background-color: #FAFAFA;
+}

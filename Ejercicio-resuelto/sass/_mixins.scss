@@ -1,0 +1,29 @@
+@mixin text-body{
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	color: $black;
+}
+
+@mixin bg-covertint ($r-from, $g-from, $b-from, $r-to, $g-to, $b-to, $alpha, $imgurl, $background-top:"center", $background-left:"center", $background-attachment:"fixed") {
+	background: -webkit-linear-gradient(rgba($r-from, $g-from, $b-from, $alpha), rgba($r-to, $g-to, $b-to, $alpha)), url($imgurl) no-repeat unquote($background-top) unquote($background-left) unquote($background-attachment); 
+	background:    -moz-linear-gradient(rgba($r-from, $g-from, $b-from, $alpha), rgba($r-to, $g-to, $b-to, $alpha)), url($imgurl) no-repeat unquote($background-top) unquote($background-left) unquote($background-attachment); 
+	background:      -o-linear-gradient(rgba($r-from, $g-from, $b-from, $alpha), rgba($r-to, $g-to, $b-to, $alpha)), url($imgurl) no-repeat unquote($background-top) unquote($background-left) unquote($background-attachment); 
+	background:         linear-gradient(rgba($r-from, $g-from, $b-from, $alpha), rgba($r-to, $g-to, $b-to, $alpha)), url($imgurl) no-repeat unquote($background-top) unquote($background-left) unquote($background-attachment); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;  
+}
+
+@mixin center-vertical {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@mixin center-horizontal{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
