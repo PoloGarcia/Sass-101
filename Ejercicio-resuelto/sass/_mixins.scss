@@ -1,7 +1,8 @@
 @mixin text-body{
 	font-family: 'Lato', sans-serif;
 	font-size: 17px;
-	color: $black;
+	color: $pure-white;
+	font-weight: $light;
 }
 
 @mixin bg-covertint ($r-from, $g-from, $b-from, $r-to, $g-to, $b-to, $alpha, $imgurl, $background-top:"center", $background-left:"center", $background-attachment:"fixed") {
@@ -16,7 +17,7 @@
 }
 
 @mixin center-vertical {
-	position: absolute;
+	position: relative;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -26,4 +27,37 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+@mixin headers{
+	font-weight: $light;
+	font-size: 70px;
+	text-align: center;
+	margin-bottom: 10px;
+	width:50%;
+	padding-bottom: 50px;
+	@include center-horizontal;
+
+}
+
+@mixin placeholder ($color,$font-weight){
+	::-webkit-input-placeholder {
+		color: $color;
+		font-weight: $font-weight;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+		color: $color;
+		font-weight: $font-weight;
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+		color: $color;
+		font-weight: $font-weight;
+	}
+
+	:-ms-input-placeholder {  
+		color: $color; 
+		font-weight: $font-weight;
+	}
 }
