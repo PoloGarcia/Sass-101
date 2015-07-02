@@ -40,55 +40,56 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 0;
 }
-/* line 21, ../sass/_landing.scss */
+/* line 22, ../sass/_landing.scss */
 #section-1 img {
   height: 30vh;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 26, ../sass/_landing.scss */
+/* line 27, ../sass/_landing.scss */
 #section-1 .logo {
   font-size: 50px;
   width: 100%;
   text-align: center;
   color: #FFF;
 }
-/* line 33, ../sass/_landing.scss */
+/* line 34, ../sass/_landing.scss */
 #section-1 .logo .bold {
   font-weight: 900;
 }
-/* line 37, ../sass/_landing.scss */
+/* line 38, ../sass/_landing.scss */
 #section-1 .logo .thin {
   font-weight: 100;
 }
-/* line 42, ../sass/_landing.scss */
+/* line 43, ../sass/_landing.scss */
 #section-1 p {
   font-weight: 300;
-  width: 70%;
+  width: 60%;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   font-weight: 100;
 }
 
-/* line 52, ../sass/_landing.scss */
+/* line 53, ../sass/_landing.scss */
 #section-2 {
   height: 100vh;
   background-color: #FAFAFA;
   color: #4D94FF;
 }
-/* line 57, ../sass/_landing.scss */
+/* line 58, ../sass/_landing.scss */
 #section-2 .content {
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 61, ../sass/_landing.scss */
+/* line 62, ../sass/_landing.scss */
 #section-2 h1 {
   font-weight: 100;
   font-size: 70px;
@@ -101,11 +102,11 @@ body {
   margin-right: auto;
   margin-top: 0;
 }
-/* line 67, ../sass/_landing.scss */
+/* line 68, ../sass/_landing.scss */
 #section-2 form .form-element {
   display: block;
 }
-/* line 69, ../sass/_landing.scss */
+/* line 70, ../sass/_landing.scss */
 #section-2 form .form-element input[type=text] {
   border-style: none;
   background: none;
@@ -122,11 +123,11 @@ body {
   color: #4D94FF;
   transition: all 0.3s ease 0s;
 }
-/* line 85, ../sass/_landing.scss */
+/* line 86, ../sass/_landing.scss */
 #section-2 form .form-element input[type=text]:focus {
   border-bottom: solid 2px #003d9a;
 }
-/* line 89, ../sass/_landing.scss */
+/* line 90, ../sass/_landing.scss */
 #section-2 form .form-element button {
   font-size: 50px;
   font-weight: 100;
@@ -144,7 +145,7 @@ body {
   margin-bottom: 30px;
   transition: all 0.3s ease 0s;
 }
-/* line 104, ../sass/_landing.scss */
+/* line 105, ../sass/_landing.scss */
 #section-2 form .form-element button:hover {
   background: #4D94FF;
   color: #FFF;
@@ -173,12 +174,12 @@ body {
   font-weight: 100;
 }
 
-/* line 116, ../sass/_landing.scss */
+/* line 117, ../sass/_landing.scss */
 #section-3 {
   background-color: #4D94FF;
   height: 100vh;
 }
-/* line 120, ../sass/_landing.scss */
+/* line 121, ../sass/_landing.scss */
 #section-3 h1 {
   font-weight: 100;
   font-size: 70px;
@@ -192,11 +193,11 @@ body {
   color: #FFF;
   margin-top: 0;
 }
-/* line 126, ../sass/_landing.scss */
+/* line 127, ../sass/_landing.scss */
 #section-3 .pricing-table {
   width: 100%;
 }
-/* line 128, ../sass/_landing.scss */
+/* line 129, ../sass/_landing.scss */
 #section-3 .pricing-table .price {
   color: #FAFAFA;
   text-align: center;
@@ -205,24 +206,24 @@ body {
   display: inline-block;
   padding: 20px 20px 20px 20px;
 }
-/* line 129, ../sass/_landing.scss */
+/* line 130, ../sass/_landing.scss */
 #section-3 .pricing-table .price img {
   width: 15%;
 }
-/* line 132, ../sass/_landing.scss */
+/* line 133, ../sass/_landing.scss */
 #section-3 .pricing-table .price h2 {
   font-weight: 300;
 }
-/* line 142, ../sass/_landing.scss */
+/* line 143, ../sass/_landing.scss */
 #section-3 .pricing-table .price .description {
   font-size: 2vh;
 }
-/* line 146, ../sass/_landing.scss */
+/* line 147, ../sass/_landing.scss */
 #section-3 .pricing-table .price .money {
   font-weight: 700;
   font-size: 50px;
 }
-/* line 150, ../sass/_landing.scss */
+/* line 151, ../sass/_landing.scss */
 #section-3 .pricing-table .price:first-child {
   border-right: solid 1px #FFF;
   margin-left: 18%;

@@ -16,6 +16,7 @@
 
 	h1{
 		@include headers;
+		padding-bottom: 0;
 	}
 
 	img{
@@ -41,9 +42,9 @@
 
 	p{
 		font-weight: $regular;
-		width: 70%;
+		width: 60%;
 		text-align: center;
-		font-size: 18px;
+		font-size: 20px;
 		@include center-horizontal;
 		font-weight: $light;
 	}
