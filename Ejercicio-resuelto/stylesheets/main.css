@@ -36,11 +36,10 @@ body {
   text-align: center;
   margin-bottom: 10px;
   width: 50%;
-  padding-bottom: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 0;
+  margin-bottom: 30px;
 }
 /* line 22, ../sass/_landing.scss */
 #section-1 img {
@@ -66,6 +65,7 @@ body {
 }
 /* line 43, ../sass/_landing.scss */
 #section-1 p {
+  margin-top: 20px;
   font-weight: 300;
   width: 60%;
   text-align: center;
@@ -76,43 +76,44 @@ body {
   font-weight: 100;
 }
 
-/* line 53, ../sass/_landing.scss */
+/* line 54, ../sass/_landing.scss */
 #section-2 {
   height: 100vh;
   background-color: #FAFAFA;
   color: #4D94FF;
 }
-/* line 58, ../sass/_landing.scss */
+/* line 59, ../sass/_landing.scss */
 #section-2 .content {
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 62, ../sass/_landing.scss */
+/* line 63, ../sass/_landing.scss */
 #section-2 h1 {
   font-weight: 100;
   font-size: 70px;
   text-align: center;
   margin-bottom: 10px;
   width: 50%;
-  padding-bottom: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
+  margin-bottom: 40px;
+  font-weight: 300;
 }
-/* line 68, ../sass/_landing.scss */
+/* line 71, ../sass/_landing.scss */
 #section-2 form .form-element {
   display: block;
 }
-/* line 70, ../sass/_landing.scss */
+/* line 73, ../sass/_landing.scss */
 #section-2 form .form-element input[type=text] {
   border-style: none;
   background: none;
   outline: none;
-  border-bottom: solid 2px #4D94FF;
-  font-size: 60px;
+  border-bottom: solid 2px #c7c7c7;
+  font-size: 50px;
   font-weight: 100;
   font-family: 'Lato', sans-serif;
   width: 60%;
@@ -122,82 +123,80 @@ body {
   margin-bottom: 30px;
   color: #4D94FF;
   transition: all 0.3s ease 0s;
-}
-/* line 86, ../sass/_landing.scss */
-#section-2 form .form-element input[type=text]:focus {
-  border-bottom: solid 2px #003d9a;
+  padding-bottom: 20px;
 }
 /* line 90, ../sass/_landing.scss */
+#section-2 form .form-element input[type=text]:focus {
+  border-bottom: solid 2px #4D94FF;
+}
+/* line 94, ../sass/_landing.scss */
 #section-2 form .form-element button {
   font-size: 50px;
   font-weight: 100;
   font-family: 'Lato', sans-serif;
-  background: none;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+  background: #4D94FF;
   border: 1px solid #4D94FF;
-  color: #4D94FF;
+  color: #FFF;
   width: 60%;
   outline: none;
   margin-left: 20%;
   margin-top: 30px;
   margin-bottom: 30px;
   transition: all 0.3s ease 0s;
+  padding: 20px 20px 20px 20px;
 }
-/* line 105, ../sass/_landing.scss */
+/* line 110, ../sass/_landing.scss */
 #section-2 form .form-element button:hover {
-  background: #4D94FF;
-  color: #FFF;
-  border: 1px solid #FFF;
+  background: none;
+  color: #4D94FF;
+  border: 1px solid #4D94FF;
 }
-/* line 44, ../sass/_mixins.scss */
+/* line 43, ../sass/_mixins.scss */
 #section-2 ::-webkit-input-placeholder {
-  color: #e1e1e1;
+  color: #c7c7c7;
   font-weight: 100;
 }
-/* line 49, ../sass/_mixins.scss */
+/* line 48, ../sass/_mixins.scss */
 #section-2 :-moz-placeholder {
   /* Firefox 18- */
-  color: #e1e1e1;
+  color: #c7c7c7;
   font-weight: 100;
 }
-/* line 54, ../sass/_mixins.scss */
+/* line 53, ../sass/_mixins.scss */
 #section-2 ::-moz-placeholder {
   /* Firefox 19+ */
-  color: #e1e1e1;
+  color: #c7c7c7;
   font-weight: 100;
 }
-/* line 59, ../sass/_mixins.scss */
+/* line 58, ../sass/_mixins.scss */
 #section-2 :-ms-input-placeholder {
-  color: #e1e1e1;
+  color: #c7c7c7;
   font-weight: 100;
 }
 
-/* line 117, ../sass/_landing.scss */
+/* line 123, ../sass/_landing.scss */
 #section-3 {
   background-color: #4D94FF;
   height: 100vh;
 }
-/* line 121, ../sass/_landing.scss */
+/* line 127, ../sass/_landing.scss */
 #section-3 h1 {
   font-weight: 100;
   font-size: 70px;
   text-align: center;
   margin-bottom: 10px;
   width: 50%;
-  padding-bottom: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   color: #FFF;
   margin-top: 0;
 }
-/* line 127, ../sass/_landing.scss */
+/* line 133, ../sass/_landing.scss */
 #section-3 .pricing-table {
   width: 100%;
 }
-/* line 129, ../sass/_landing.scss */
+/* line 135, ../sass/_landing.scss */
 #section-3 .pricing-table .price {
   color: #FAFAFA;
   text-align: center;
@@ -206,24 +205,24 @@ body {
   display: inline-block;
   padding: 20px 20px 20px 20px;
 }
-/* line 130, ../sass/_landing.scss */
+/* line 136, ../sass/_landing.scss */
 #section-3 .pricing-table .price img {
   width: 15%;
 }
-/* line 133, ../sass/_landing.scss */
+/* line 139, ../sass/_landing.scss */
 #section-3 .pricing-table .price h2 {
   font-weight: 300;
 }
-/* line 143, ../sass/_landing.scss */
+/* line 149, ../sass/_landing.scss */
 #section-3 .pricing-table .price .description {
   font-size: 2vh;
 }
-/* line 147, ../sass/_landing.scss */
+/* line 153, ../sass/_landing.scss */
 #section-3 .pricing-table .price .money {
   font-weight: 700;
   font-size: 50px;
 }
-/* line 151, ../sass/_landing.scss */
+/* line 157, ../sass/_landing.scss */
 #section-3 .pricing-table .price:first-child {
   border-right: solid 1px #FFF;
   margin-left: 18%;
